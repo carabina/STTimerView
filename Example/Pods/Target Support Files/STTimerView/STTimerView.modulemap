@@ -1,0 +1,6 @@
+framework module STTimerView {
+  umbrella header "STTimerView-umbrella.h"
+
+  export *
+  module * { export * }
+}

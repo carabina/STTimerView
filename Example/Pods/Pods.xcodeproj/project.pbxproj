@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D6A2832B3F448F477341E938199D106 /* STTimerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A6775A560508AC96AAF6885524116B /* STTimerView-dummy.m */; };
+		1121A0CB1E0D9F1200CCDF70 /* STTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1121A0C91E0D9F0200CCDF70 /* STTimerView.swift */; };
+		14C647F30338526FB35B8A3FC7345A90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		438EF80215E127E3A806592A2CBF46A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		5612D7812456856BC472D5D456367BBF /* Pods-STTimerView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B621441400A8BD9351828737E944443 /* Pods-STTimerView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64D12D7B310B5FE29FACBDB709E7987A /* Pods-STTimerView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86EAFE4EC9DC83249ECAC91DA431DBA0 /* Pods-STTimerView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9824C920605749F2CA0D0B02DBF3AE50 /* Pods-STTimerView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F70549FD4FB6AF61A640A4946A741D4A /* Pods-STTimerView_Tests-dummy.m */; };
+		BE1600FED1A114C1EECB44AFBC41E535 /* STTimerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65AD76AE8EB838E2EFB953F2E6BB9FB0 /* STTimerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE53AC610ED710C00E1F6824FB9EF279 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		E81FFE3AAC5A03D2DC1FCD369B97DC3F /* Pods-STTimerView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 400F47D2F710767150825BCECD722450 /* Pods-STTimerView_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3943E57F57C858F7FBD1A5519BF5DBB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7813A4077F5AB2F8DE6391FE37B411D6;
+			remoteInfo = STTimerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		070518C311354526FA58C8765F2AE369 /* Pods-STTimerView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-STTimerView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		09F7F137C2B7C15A659C865DE988D0DA /* Pods-STTimerView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-STTimerView_Tests.modulemap"; sourceTree = "<group>"; };
+		1121A0C91E0D9F0200CCDF70 /* STTimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STTimerView.swift; sourceTree = "<group>"; };
+		118926DD550ED3CAEA752BCFAAB0C9A4 /* STTimerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "STTimerView-prefix.pch"; sourceTree = "<group>"; };
+		1CF82D2A05BDEA3A312A3C41F97FD643 /* Pods-STTimerView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-STTimerView_Tests-resources.sh"; sourceTree = "<group>"; };
+		3784AF6CA5429C4B76935E93D9A82010 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		400F47D2F710767150825BCECD722450 /* Pods-STTimerView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-STTimerView_Example-dummy.m"; sourceTree = "<group>"; };
+		40582182BF372BDAA4F79906FEB60EB4 /* Pods-STTimerView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-STTimerView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4156E0F5B085B6EACABF25CA149063FF /* Pods-STTimerView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-STTimerView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		459519EECA971B2FBE658E406D6EA5C2 /* Pods-STTimerView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-STTimerView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		46D04AB246EA2866E090E661E0873750 /* Pods_STTimerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STTimerView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50BD944C93583805ED7A65A275D94E2D /* Pods-STTimerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-STTimerView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		53F789A80CBFB6921D1828347972BF64 /* Pods-STTimerView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-STTimerView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5A6F5688ECF2A710E2C36C99B2B5C01F /* STTimerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STTimerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65AD76AE8EB838E2EFB953F2E6BB9FB0 /* STTimerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "STTimerView-umbrella.h"; sourceTree = "<group>"; };
+		691DCBAD44BF3D9AF2F348D1B6DAAE62 /* STTimerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = STTimerView.xcconfig; sourceTree = "<group>"; };
+		6F68F4E4D0985BF179C6BEC2AF61C209 /* Pods-STTimerView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-STTimerView_Example.modulemap"; sourceTree = "<group>"; };
+		86EAFE4EC9DC83249ECAC91DA431DBA0 /* Pods-STTimerView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-STTimerView_Example-umbrella.h"; sourceTree = "<group>"; };
+		8B621441400A8BD9351828737E944443 /* Pods-STTimerView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-STTimerView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B69FA835B00F3C81CAF213DA22A0192 /* Pods-STTimerView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-STTimerView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A17BB1A0703C8714C900C900B8E46F9A /* Pods-STTimerView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-STTimerView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A1A6775A560508AC96AAF6885524116B /* STTimerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "STTimerView-dummy.m"; sourceTree = "<group>"; };
+		A493D948590E65D1A028E520511985AE /* Pods-STTimerView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-STTimerView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AC3ED1AB31BE217000507E4438ECD480 /* STTimerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = STTimerView.modulemap; sourceTree = "<group>"; };
+		BA3703D2DF7307002ACE3E2ED6C60784 /* Pods-STTimerView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-STTimerView_Example-resources.sh"; sourceTree = "<group>"; };
+		C3B7D6F9DF5F7339D6E4ECB4BD3A642C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DCC6F53581DDF6012610C83EB07F1FB9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E172E9FDF1A84394E6A707CFC10F3663 /* Pods-STTimerView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-STTimerView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EC07DCF1113FF3F15D15D1AAAF5CF9B7 /* Pods_STTimerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STTimerView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70549FD4FB6AF61A640A4946A741D4A /* Pods-STTimerView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-STTimerView_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37A8D3924ABC04E9C9365B522365A754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438EF80215E127E3A806592A2CBF46A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8059243518759A52B4CAFF41D5FC71F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C647F30338526FB35B8A3FC7345A90 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3CBEFF18A731F2B8AE6E5C20CF28E90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE53AC610ED710C00E1F6824FB9EF279 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05AD965EB1CA0657FCB14DBA7385A24E /* STTimerView */ = {
+			isa = PBXGroup;
+			children = (
+				DCA26D5C65E35E94F2E46DE9AEC6B68C /* Classes */,
+			);
+			path = STTimerView;
+			sourceTree = "<group>";
+		};
+		0BCA51F516D52B084223099671373FA1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A13F43B977CBB7819EA155DC29A5F950 /* STTimerView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1E7DAF7D4737E4EC8D209B30FD8B0636 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6679887D1A2F2D19252B54B0CA47E8CC /* Pods-STTimerView_Example */,
+				E1B803EA1BB9C166C50A6B48742A35C6 /* Pods-STTimerView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6679887D1A2F2D19252B54B0CA47E8CC /* Pods-STTimerView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3784AF6CA5429C4B76935E93D9A82010 /* Info.plist */,
+				6F68F4E4D0985BF179C6BEC2AF61C209 /* Pods-STTimerView_Example.modulemap */,
+				53F789A80CBFB6921D1828347972BF64 /* Pods-STTimerView_Example-acknowledgements.markdown */,
+				9B69FA835B00F3C81CAF213DA22A0192 /* Pods-STTimerView_Example-acknowledgements.plist */,
+				400F47D2F710767150825BCECD722450 /* Pods-STTimerView_Example-dummy.m */,
+				A493D948590E65D1A028E520511985AE /* Pods-STTimerView_Example-frameworks.sh */,
+				BA3703D2DF7307002ACE3E2ED6C60784 /* Pods-STTimerView_Example-resources.sh */,
+				86EAFE4EC9DC83249ECAC91DA431DBA0 /* Pods-STTimerView_Example-umbrella.h */,
+				070518C311354526FA58C8765F2AE369 /* Pods-STTimerView_Example.debug.xcconfig */,
+				50BD944C93583805ED7A65A275D94E2D /* Pods-STTimerView_Example.release.xcconfig */,
+			);
+			name = "Pods-STTimerView_Example";
+			path = "Target Support Files/Pods-STTimerView_Example";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0BCA51F516D52B084223099671373FA1 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FB852A0D55D8D2CCD158A11C7D68E343 /* Products */,
+				1E7DAF7D4737E4EC8D209B30FD8B0636 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A13F43B977CBB7819EA155DC29A5F950 /* STTimerView */ = {
+			isa = PBXGroup;
+			children = (
+				05AD965EB1CA0657FCB14DBA7385A24E /* STTimerView */,
+				BFCD6E14A2542866EECC94B1635045AE /* Support Files */,
+			);
+			name = STTimerView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFCD6E14A2542866EECC94B1635045AE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCC6F53581DDF6012610C83EB07F1FB9 /* Info.plist */,
+				AC3ED1AB31BE217000507E4438ECD480 /* STTimerView.modulemap */,
+				691DCBAD44BF3D9AF2F348D1B6DAAE62 /* STTimerView.xcconfig */,
+				A1A6775A560508AC96AAF6885524116B /* STTimerView-dummy.m */,
+				118926DD550ED3CAEA752BCFAAB0C9A4 /* STTimerView-prefix.pch */,
+				65AD76AE8EB838E2EFB953F2E6BB9FB0 /* STTimerView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/STTimerView";
+			sourceTree = "<group>";
+		};
+		DCA26D5C65E35E94F2E46DE9AEC6B68C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1121A0C91E0D9F0200CCDF70 /* STTimerView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E1B803EA1BB9C166C50A6B48742A35C6 /* Pods-STTimerView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C3B7D6F9DF5F7339D6E4ECB4BD3A642C /* Info.plist */,
+				09F7F137C2B7C15A659C865DE988D0DA /* Pods-STTimerView_Tests.modulemap */,
+				40582182BF372BDAA4F79906FEB60EB4 /* Pods-STTimerView_Tests-acknowledgements.markdown */,
+				459519EECA971B2FBE658E406D6EA5C2 /* Pods-STTimerView_Tests-acknowledgements.plist */,
+				F70549FD4FB6AF61A640A4946A741D4A /* Pods-STTimerView_Tests-dummy.m */,
+				4156E0F5B085B6EACABF25CA149063FF /* Pods-STTimerView_Tests-frameworks.sh */,
+				1CF82D2A05BDEA3A312A3C41F97FD643 /* Pods-STTimerView_Tests-resources.sh */,
+				8B621441400A8BD9351828737E944443 /* Pods-STTimerView_Tests-umbrella.h */,
+				A17BB1A0703C8714C900C900B8E46F9A /* Pods-STTimerView_Tests.debug.xcconfig */,
+				E172E9FDF1A84394E6A707CFC10F3663 /* Pods-STTimerView_Tests.release.xcconfig */,
+			);
+			name = "Pods-STTimerView_Tests";
+			path = "Target Support Files/Pods-STTimerView_Tests";
+			sourceTree = "<group>";
+		};
+		FB852A0D55D8D2CCD158A11C7D68E343 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC07DCF1113FF3F15D15D1AAAF5CF9B7 /* Pods_STTimerView_Example.framework */,
+				46D04AB246EA2866E090E661E0873750 /* Pods_STTimerView_Tests.framework */,
+				5A6F5688ECF2A710E2C36C99B2B5C01F /* STTimerView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		23A783DEA63303A12F7855E5B4BE2C02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5612D7812456856BC472D5D456367BBF /* Pods-STTimerView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1AC2DCB045F47E437B369C148E954C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D12D7B310B5FE29FACBDB709E7987A /* Pods-STTimerView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B5AA7AE8DD5DCDAA7AF489AEF99AFF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1600FED1A114C1EECB44AFBC41E535 /* STTimerView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0E79E522F8C39EEF9850691EB1DCA680 /* Pods-STTimerView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E2F364DAB420F09D0E3E695E116E33 /* Build configuration list for PBXNativeTarget "Pods-STTimerView_Tests" */;
+			buildPhases = (
+				2CD5E65E70B64558DA6FA96AEE826C6D /* Sources */,
+				37A8D3924ABC04E9C9365B522365A754 /* Frameworks */,
+				23A783DEA63303A12F7855E5B4BE2C02 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-STTimerView_Tests";
+			productName = "Pods-STTimerView_Tests";
+			productReference = 46D04AB246EA2866E090E661E0873750 /* Pods_STTimerView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		770F7A6F6BF4EB5EB9E255184C81B0B3 /* Pods-STTimerView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE23B35510559410137A0EF509F06815 /* Build configuration list for PBXNativeTarget "Pods-STTimerView_Example" */;
+			buildPhases = (
+				9D647C5EE11B91EF9170772B02AD382C /* Sources */,
+				8059243518759A52B4CAFF41D5FC71F6 /* Frameworks */,
+				C1AC2DCB045F47E437B369C148E954C6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52A6FDDF9F408552F90651E6FC1CDC38 /* PBXTargetDependency */,
+			);
+			name = "Pods-STTimerView_Example";
+			productName = "Pods-STTimerView_Example";
+			productReference = EC07DCF1113FF3F15D15D1AAAF5CF9B7 /* Pods_STTimerView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7813A4077F5AB2F8DE6391FE37B411D6 /* STTimerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 481CC5B5177BAB0D840CD4C006BFFB64 /* Build configuration list for PBXNativeTarget "STTimerView" */;
+			buildPhases = (
+				362B283F0D1030707263DE26B3397D6C /* Sources */,
+				A3CBEFF18A731F2B8AE6E5C20CF28E90 /* Frameworks */,
+				E6B5AA7AE8DD5DCDAA7AF489AEF99AFF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STTimerView;
+			productName = STTimerView;
+			productReference = 5A6F5688ECF2A710E2C36C99B2B5C01F /* STTimerView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FB852A0D55D8D2CCD158A11C7D68E343 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				770F7A6F6BF4EB5EB9E255184C81B0B3 /* Pods-STTimerView_Example */,
+				0E79E522F8C39EEF9850691EB1DCA680 /* Pods-STTimerView_Tests */,
+				7813A4077F5AB2F8DE6391FE37B411D6 /* STTimerView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CD5E65E70B64558DA6FA96AEE826C6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9824C920605749F2CA0D0B02DBF3AE50 /* Pods-STTimerView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		362B283F0D1030707263DE26B3397D6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D6A2832B3F448F477341E938199D106 /* STTimerView-dummy.m in Sources */,
+				1121A0CB1E0D9F1200CCDF70 /* STTimerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D647C5EE11B91EF9170772B02AD382C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E81FFE3AAC5A03D2DC1FCD369B97DC3F /* Pods-STTimerView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52A6FDDF9F408552F90651E6FC1CDC38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = STTimerView;
+			target = 7813A4077F5AB2F8DE6391FE37B411D6 /* STTimerView */;
+			targetProxy = 3943E57F57C858F7FBD1A5519BF5DBB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2E25EC71765D03E7679FEB5CD6DB14AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 070518C311354526FA58C8765F2AE369 /* Pods-STTimerView_Example.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-STTimerView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-STTimerView_Example/Pods-STTimerView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_STTimerView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3438281CDEA4DB2274F088161C4538AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50BD944C93583805ED7A65A275D94E2D /* Pods-STTimerView_Example.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-STTimerView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-STTimerView_Example/Pods-STTimerView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_STTimerView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3CCC6126F0FC750E070754E091798255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A17BB1A0703C8714C900C900B8E46F9A /* Pods-STTimerView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-STTimerView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-STTimerView_Tests/Pods-STTimerView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_STTimerView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71C8B68950ACD0E2B3D99E9237C55A48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 691DCBAD44BF3D9AF2F348D1B6DAAE62 /* STTimerView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/STTimerView/STTimerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/STTimerView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/STTimerView/STTimerView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = STTimerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		73031EC051E8277F016A4B3872C4533E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E172E9FDF1A84394E6A707CFC10F3663 /* Pods-STTimerView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-STTimerView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-STTimerView_Tests/Pods-STTimerView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_STTimerView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E8610C4E6827A835E994894C341FEEBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 691DCBAD44BF3D9AF2F348D1B6DAAE62 /* STTimerView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/STTimerView/STTimerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/STTimerView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/STTimerView/STTimerView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = STTimerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		481CC5B5177BAB0D840CD4C006BFFB64 /* Build configuration list for PBXNativeTarget "STTimerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71C8B68950ACD0E2B3D99E9237C55A48 /* Debug */,
+				E8610C4E6827A835E994894C341FEEBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4E2F364DAB420F09D0E3E695E116E33 /* Build configuration list for PBXNativeTarget "Pods-STTimerView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CCC6126F0FC750E070754E091798255 /* Debug */,
+				73031EC051E8277F016A4B3872C4533E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE23B35510559410137A0EF509F06815 /* Build configuration list for PBXNativeTarget "Pods-STTimerView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E25EC71765D03E7679FEB5CD6DB14AA /* Debug */,
+				3438281CDEA4DB2274F088161C4538AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

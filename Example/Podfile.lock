@@ -1,0 +1,16 @@
+PODS:
+  - STTimerView (0.1.0)
+
+DEPENDENCIES:
+  - STTimerView (from `../`)
+
+EXTERNAL SOURCES:
+  STTimerView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  STTimerView: 2aa64d1fd36428c0f6fdff92a56a40c4b5c5e00c
+
+PODFILE CHECKSUM: a51785759df45f575be454a5965ea8d0de458800
+
+COCOAPODS: 1.2.0.beta.1
