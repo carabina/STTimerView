@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'STTimerView_Example' do
+  pod 'STTimerView', :path => '../'
+
+  target 'STTimerView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
