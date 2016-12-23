@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'STTimerView'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'This is a simple view with a Circle Progress Count Down using Swift 2.3 and XCode 7.3.1.'
 
 # This description is used to generate tags and improve search results.
