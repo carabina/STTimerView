@@ -6,6 +6,7 @@ class STTimerView: UIView {
     var currMinute : Int = 1
     var currSeconds : Int = 0
     var circleColor : UIColor = UIColor.redColor()
+    var showLabel : Bool = false
     lazy var timer : NSTimer = {
         return NSTimer()
     }()
@@ -32,6 +33,12 @@ class STTimerView: UIView {
         }
     }
     
+    @IBInspectable var showTimerLabel: Bool = false {
+        didSet {
+            self.showLabel = showTimerLabel
+        }
+    }
+    
     @IBInspectable var backgroundCircleColor: UIColor? {
         didSet {
             self.circleColor = backgroundCircleColor!
@@ -50,7 +57,9 @@ class STTimerView: UIView {
     
     func start(){
         self.layer.addSublayer(self.circleLayer)
-        self.addSubview(self.timerLabel)
+        if showLabel{
+            self.addSubview(self.timerLabel)
+        }
         self.startCircleAnimation()
         self.timer = NSTimer.scheduledTimerWithTimeInterval(1.0,
                                                             target: self,
